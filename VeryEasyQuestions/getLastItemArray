@@ -1,0 +1,10 @@
+// Create a function that accepts an array and returns the last item in the array.
+
+// arr.pop();
+// a.slice(-1)[0];
+
+const getLastItemArray = arr => arr[arr.length - 1];
+
+const result = getLastItemArray(["Ram", "Ritesh", "Sharma"]);
+
+console.log(result);
